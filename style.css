@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-
 }
 
 body {
@@ -16,7 +15,6 @@ body {
     background-color: #075eaf;
     font-size: 30px;
     color: white;
-    
 }
 
 .content {
@@ -74,17 +72,20 @@ a {
 
 .title {
     font-size: 36px;
-    font-weight: bolder;
+    margin-top: 0px;
+    font-family: 'Sigmar One';
 }
 
 .description {
     font-size: 24px;
+    font-family: 'Fredoka One';
 }
 
 button {
     background-color: #ed6a5a;
     border-radius: 4px;
     font-size: 20px;
+    font-family: 'Fredoka One';
 }
 
 .row-2 {
@@ -99,6 +100,7 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0px;
+    font-family: 'Fredoka One';
 }
 
 .card {
@@ -117,14 +119,11 @@ button {
     color: white;
 }
 
-.quote {
-    font-size: 36px;
-}
-
 .author {
     text-align: right;
     font-size: 24px;
     font-weight: bold;
+    font-family: "Fredoka One"
 }
     
 .row-4 {
@@ -137,7 +136,7 @@ button {
     color: #472c07
 }
 
-.row-4 p {
+.row-4 p {    justify-content: center;
     margin: 10px;
     padding: 0px;
 }
