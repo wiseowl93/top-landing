@@ -15,6 +15,7 @@ body {
     background-color: #075eaf;
     font-size: 30px;
     color: white;
+    padding: 20px 36px;
 }
 
 .content {
@@ -45,6 +46,12 @@ a {
     padding: 100px 400px;
 }
 
+@media only screen and (max-width: 768px) {
+    .row {
+        padding: 5% 10%;
+    }
+}
+
 .row-1 {
     display: flex;
     align-items: flex-start;
@@ -60,6 +67,7 @@ a {
     flex-direction: column;
     margin-right: 100px;
     margin-bottom: 100px;
+    max-width: 600px;
 }
 
 .column-1 button {
