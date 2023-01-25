@@ -165,3 +165,9 @@ button {
         padding: 5% 10%;
     }
 }
+
+@media all and (min-device-width: 600px) {
+    .row {
+        padding: 5% 10%;
+    }
+}
