@@ -59,6 +59,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-right: 100px;
+    margin-bottom: 100px;
 }
 
 .column-1 button {
