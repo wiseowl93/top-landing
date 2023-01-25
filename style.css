@@ -35,14 +35,9 @@ body {
     color: white;
 }
 
-.cards {
-    display: flex;
-}
-
 .box {
     display: flex;
 }
-
 
 .logo {
     height: auto;
@@ -88,8 +83,22 @@ button {
     font-size: 20px;
 }
 
+.row-2 {
+    padding: 100px 200px;
+    background-color: #f5dbb4;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+}
+
 .card {
-    border: 4px double #ed6a5a;    
+    border: 8px solid #ed6a5a;
+    border-radius: 8px;
+    text-align: center;    
 }
 
 .row-3 {
