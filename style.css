@@ -141,7 +141,8 @@ button {
     color: #472c07
 }
 
-.row-4 p {    justify-content: center;
+.row-4 p {    
+    justify-content: center;
     margin: 10px;
     padding: 0px;
 }
